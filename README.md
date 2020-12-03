@@ -6,6 +6,6 @@
 
 
 Try the app here (LIVE):
-**[Transcriber & Translator](http://http://nixbox.hopto.org/ "Transcriber & Translator")**
+**[Transcriber & Translator](nixbox.hopto.org/ "Transcriber & Translator")**
 
 For More Information: 
