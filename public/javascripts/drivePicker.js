@@ -8,7 +8,7 @@ var CLIENT_ID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
 // The APP ID obtained from the Google API Console. Replace with your own APP ID and
 // keep in sync with API_KEY and CLIENT_ID.
-var APP_ID = "transcriber-295201";
+var APP_ID = "transcriber-XXXXXXXX";
 
 // API discovery doc URL for APIs used by this example
 var DISCOVERY_DOCS = "https://www.googleapis.com/discovery/v1/apis/drive/v3/rest";
