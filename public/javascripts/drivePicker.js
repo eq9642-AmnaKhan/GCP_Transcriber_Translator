@@ -1,10 +1,10 @@
 
 // The API key obtained from the Google API Console.
 // Replace with your own API key, or your own key.
-var API_KEY = "AIzaSyD96mtmpJwDOC20WNOXgrXjL59Xt4gwxwU";
+var API_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
 // The Client ID obtained from the Google API Console. Replace with your own Client ID.
-var CLIENT_ID = "587413294405-5jrj5qa18ni42cs5bmrrvutve9e6vdl3.apps.googleusercontent.com";
+var CLIENT_ID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
 // The APP ID obtained from the Google API Console. Replace with your own APP ID and
 // keep in sync with API_KEY and CLIENT_ID.
