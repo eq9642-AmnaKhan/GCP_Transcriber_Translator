@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container-fluid top_header">
+    <div class="page-header">
+      <h1>CSC-623 Cloud Computing Project - Transcriber </h1>
+    </div>
+  </div>
+  <hr>
+  <div class="container-fluid">
+    <div class="col-sm-10 col-sm-offset-1">
+      <div class="panel panel-default ">
+        <div class="panel-heading">
+          <h4>Transcribe & Translate Audio files.</h4>
+        </div>
+        <div class="panel-body">
+          <fieldset class="transcribe">
+            <legend>Transcribe</legend>
+            <p>Pick a file from Google Drive</p>
+            <button id="pick_file_button" class="btn btn-primary">Pick Audio File</button>
+            <pre id="content"></pre>
+
+            <button id="transcribe_button" class="btn btn-primary">Transcribe Audio</button>
+            <pre id="transcribed-content"></pre>
+          </fieldset>
+          <fieldset class="translate">
+            <legend>Translate</legend>
+            <div class="translate_ctrl">
+              <label for="language">Select language: </label>
+              <select name="language" id="lang_select">
+                <option value=" " disabled selected hidden>Choose</option>
+                <option value="ar">Arabic</option>
+                <option value="zh">Chinese</option>
+                <option value="nl">Dutch</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+                <option value="el">Greek</option>
+                <option value="he">Hebrew</option>
+                <option value="it">Italian</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="es">Spanish</option>
+                <option value="sv">Swedish</option>
+                <option value="th">Thai</option>
+                <option value="tr">Turkish</option>
+                <option value="vi">Vietnamese</option>
+              </select>
+              <button id="translate_button" class="btn btn-primary">Translate</button>
+              <pre id="translated-content"></pre>
+            </div>
+          </fieldset>
+                <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer> <h4>Made by Amna Khan-eq9642@CSUEB</h4> </footer>
+
+  <!-- The Google API Loader script. -->
+  <script src="/scripts/drivePicker.js"> </script>
+  <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
+  </script>
+
+</body>
+
+</html>
