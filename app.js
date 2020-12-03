@@ -4,7 +4,7 @@ var path = require('path');
 const fetch = require("node-fetch");
 //setting the environemet variables via code for Google speech API
 const projectId = "transcriber-295201";
-const keyFile = "public/transcriber-295201-97ece22b522e.json";
+const keyFile = "public/transcriber-XXXXXXXXXXXXX-XXXXXXXXXXXXXX.json";
 //including the Speech API
 const speech = require('@google-cloud/speech');
 const client = new speech.SpeechClient({projectId, keyFile});
